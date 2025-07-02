@@ -126,3 +126,29 @@ body{
  }
 
 
+
+ .listing-card h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.listing-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+
+.listing-card {
+  width: 22rem;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.listing-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
