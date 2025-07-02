@@ -1,0 +1,147 @@
+  @media (max-width: 1400px) {
+    .small {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 1200px) and (max-width: 1400px) {
+    .filter {
+
+      margin-left: 2rem;
+
+    }
+  }
+
+
+  @media (max-width: 1200px) {
+    .listing-card {
+      width: 19rem !important;
+      margin-left: 3rem !important;
+    }
+  }
+
+
+
+  @media (max-width: 765px) {
+    .listing-card {
+      width: 20rem !important;
+      margin-left: 2rem;
+    }
+  }
+
+
+  @media (max-width: 600px) {
+    .filter {
+
+      margin-right: 1rem !important;
+
+    }
+
+
+  }
+
+
+  @media (max-width: 991px) {
+
+
+    .filter {
+
+      margin-right: 1rem !important;
+      margin-left: 2rem;
+    }
+
+    .tax-toggle {
+      display: none;
+    }
+
+
+  }
+
+
+
+  @media (min-width: 545px) and (max-width: 767px) {
+    .listing-card {
+      display: flex;
+      justify-content: center;
+      width: 28rem !important;
+      margin: 2rem;
+    }
+
+
+
+  }
+
+
+  @media (max-width: 769px) {
+    .less {
+      display: none;
+    }
+  }
+
+
+
+
+  @media (min-width: 504px) and (max-width: 544px) {
+    .listing-card {
+      display: flex;
+      justify-content: center;
+      width: 24rem !important;
+      margin: 2rem;
+    }
+
+  }
+
+
+  @media (max-width: 388px) {
+    .listing-card {
+      display: flex;
+      justify-content: center;
+      width: 16rem !important;
+      margin: 2rem;
+    }
+
+  }
+
+
+
+
+  @media (max-width: 380px) {
+    .listing-card {
+      display: flex;
+      justify-content: center;
+      width: 14rem !important;
+      margin: 2rem;
+    }
+
+  }
+
+
+  @media (max-width: 330px) {
+    .listing-card {
+      display: flex;
+      justify-content: center;
+      width: 12rem !important;
+      margin: 2rem;
+    }
+
+  }
+
+  @media (max-width: 298px) {
+    .listing-card {
+      display: flex;
+      justify-content: center;
+      width: 10rem !important;
+      margin: 2rem;
+    }
+
+  }
+
+  @media (max-width: 250px) {
+    .listing-card {
+      display: flex;
+      justify-content: center;
+      width: 8rem !important;
+      margin: 2rem;
+    }
+
+  }
