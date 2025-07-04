@@ -3,12 +3,13 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #E7ECE1;
 }
 
 
 .navbar{
     height: 4rem;
-    background-color: #fff;
+    background-color:#E7ECE1;
 }
 .fa-compass{
    color:#fe424d;
@@ -62,6 +63,7 @@ body{
 .listing-card{
     border: none !important;
     margin:1.5rem;
+    background-color: #E7ECE1;
 }
 
 .card-img-top{
@@ -119,11 +121,13 @@ body{
 /* map*/
 
 
-
-#map { 
+ #map {
     height: 400px;
-    width: 80vh;
- }
+    width: 100%;          
+    max-width: 100vw;   
+    margin: 0 auto;        
+    border-radius: 10px;  
+}
 
 
 
